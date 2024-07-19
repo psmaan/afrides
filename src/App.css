@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-links > h1 {
+  color: rgb(177, 177, 177);
+  padding: 0.2rem 0;
+  font-weight: 300;
+  font-size: 24px;
+  font-family: raleway;
+  display: block;
+  position: relative;
+  margin: 0 16px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-links > h1::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  background-color: rgb(177, 177, 177);
+  opacity: 0;
+  transition: opacity 300ms, transform 300ms;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar-links > h1:hover::after,
+.navbar-links > h1:focus::after {
+  opacity: 1;
+  transform: translate3d(0, 0.2em, 0);
+}
+
+.navbar-links > h1::after {
+  opacity: 1;
+  transform: scale(0);
+  transform-origin: center;
+}
+
+.navbar-links > h1:hover::after,
+.navbar-links > h1:focus::after{
+  transform: scale(1);
+}
+
+.hero-buttons > button {
+  background-color: #35bc3d;
   color: white;
+  border: 2px solid #35bc3d;
+  transition: 0.3s;
 }
 
-.App-link {
-  color: #61dafb;
+.hero-buttons > button:hover {
+  background-color: white;
+  color: #35bc3d;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar > * {
+  z-index: 20;
 }
+
+.landing > * {
+  z-index: 20;
+}
+
+.hero1 {
+  background-image: url('./components/media/summithero1.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero2 {
+  background-image: url('./components/media/summithero2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.about-image {
+  background-image: url('./components/media/summithero2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*.about-section {
+  background: url('./components/media/afridesimg.png');
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+}*/
