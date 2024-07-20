@@ -48,13 +48,17 @@ const About = () => {
             <div className='flex w-full bg-[#95d5b2] mt-12 justify-center items-center md:p-8 lg:p-4'>
                 <div className=' lg:w-[95%] flex flex-col items-center justify-between'>
                     <h1 className='text-white font-bold text-6xl lg:text-8xl my-4 text-center'>Event Highlights</h1>
-                    <div className='flex  sm:grid-cols-2 gap-1 sm:grid md:grid-rows-auto md:grid-cols-2 lg:grid-cols-4 sm:gap-12 overflow-scroll w-[600px] lg:w-[1000px]'>
+                    <div className='flex  sm:grid-cols-2 gap-1 sm:grid md:grid-rows-auto md:grid-cols-2 lg:grid-cols-4 sm:gap-12 overflow-scroll w-[500px] lg:w-[1000px] cards'>
                         {eventHighlights.map((event, index) => (
                             <div key={index} className='flex flex-col items-center h-[300px] min-w-[230px] w-[230px] bg-white rounded-xl p-2 m-2'>
                                 <img className='h-36 w-36 mt-6' src={event.img} alt={event.title}></img>
                                 <h1 className='text-xl lg:text-2xl text-center font-bold text-[#707070] mt-6'>{event.title}</h1>
                             </div>
                         ))}
+                    </div>
+                    <div className='md:hidden flex items-center'>
+                        <img src={left}></img>
+                        <img src={right}></img>
                     </div>
                 </div>
             </div>

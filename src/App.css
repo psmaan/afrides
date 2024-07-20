@@ -189,10 +189,39 @@
   }
 }
 
-@media (max-width: 450px) {
+
+
+@media (max-width: 500px) {
   iframe {
     width: 320px;
     height: 280px;
+  }
+  .cards {
+    width: 420px;
+    padding: 0;
+  }
+  .cards > div {
+    transform: scale(0.8);
+    margin: 0;
+    position: relative;
+    left: -20px;
+  }
+}
+
+@media (max-width: 430px) {
+  iframe {
+    width: 320px;
+    height: 280px;
+  }
+  .cards {
+    width: 360px;
+    padding: 0;
+  }
+  .cards > div {
+    transform: scale(0.8);
+    margin: 0;
+    position: relative;
+    left: -20px;
   }
 }
 
