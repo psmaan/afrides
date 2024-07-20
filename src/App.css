@@ -19,6 +19,13 @@
   margin: 0 16px;
 }
 
+@media (max-width: 1024px) {
+  .navbar-links > h1 {
+    margin: 0 8px;
+    font-size: 18px;
+  }
+}
+
 .navbar-links > h1::after {
   content: '';
   position: absolute;
@@ -128,13 +135,13 @@
 }
 
 .hero1 {
-  background-image: url('./components/media/summithero1.jpeg');
+  background-image: url('./components/media/institute.jpeg');
   background-size: cover;
   background-position: center;
 }
 
 .hero2 {
-  background-image: url('./components/media/summithero2.png');
+  background-image: url('./components/media/cathedral2.jpeg');
   background-size: cover;
   background-position: center;
 }
@@ -148,12 +155,12 @@
 
 @media (max-width: 1170px) {
   iframe {
-    width: 500px;
+    width: 475px;
+    height: 400px;
     margin-left: auto;
   }
   h1.speakers {
     font-size: 50px;
-    width: 250px;
   }
   h1.hosts {
     font-size: 50px;
@@ -161,3 +168,36 @@
   }
 }
 
+@media (max-width: 768px) {
+  .saopaulo {
+    background: url('./components/media/saupaulo.png');
+  }
+}
+
+.navbar {
+  z-index: 100;
+}
+
+.navbar > * {
+  z-index: 100;
+}
+
+@media (max-width: 550px) {
+  iframe {
+    width: 400px;
+    height: 320px;
+  }
+}
+
+@media (max-width: 450px) {
+  iframe {
+    width: 320px;
+    height: 280px;
+  }
+}
+
+.navmenu > h1 {
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+}
