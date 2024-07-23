@@ -12,15 +12,6 @@ html {
   scroll-behavior: smooth;
 }
 
-@media (min-width: 768px) {
-    .saopaulo {
-      background: url("./components/media/landingbgfinal.png");
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-    }
-}
-
 .navbar-links > h1 {
   color: rgb(255, 255, 255);
   padding: 0.2rem 0;
@@ -246,4 +237,10 @@ html {
 
 .icons > div {
   box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 580px) {
+  .hosts-container {
+    flex-direction: column;
+  }
 }
