@@ -172,8 +172,13 @@ html {
   }
 }
 
+.saopaulo {
+  background-color: #95d5b2;
+}
+
 @media (max-width: 768px) {
   .saopaulo {
+    background-color: transparent;
     background: url('./components/media/saupaulo.png');
   }
 }
