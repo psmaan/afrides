@@ -12,9 +12,13 @@ import sustain from './media/sustainable.png';
 import investment from './media/investment.png';
 import left from './media/leftarrow.png';
 import right from './media/rightarrow.png';
+import bluestar1 from './media/bluestar1.jpeg';
+import bluestar2 from './media/bluestar2.jpeg';
 
 import host1 from './media/fummilayohost.jpeg';
 import host2 from './media/kelvinhost.jpeg';
+import host3 from './media/host3.jpeg';
+import linkedin from './media/linkedin.png';
 
 const eventHighlights = [
     { img: infrastructure, title: 'Digital Infrastructure and Connectivity' },
@@ -45,6 +49,20 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            <div className='w-full flex md:flex-row flex-col bg-[#35bc3d] mt-12 p-4 sm:p-8 sm:px-12'>
+                <div className='w-full md:w-1/3 lg:w-1/2 ml-0 lg:ml-12 md:h-[450px] flex flex-col items-start md:py-20 xl:p-20'>
+                    <h1 className='text-[#005720] font-bold text-4xl lg:text-6xl'>The Venue</h1>
+                    <h2 className=' text-xl lg:text-3xl font-normal text-[#95d5b2] mt-4'>Blue Tree Premium Morumbi, Sau Paulo</h2>
+                    <a className='text-white mt-2 text-2xl font-light underline underline-offset-4 hover:scale-110 duration-150 origin-left' href='https://www.bluetree.com.br/hotel/blue-tree-premium-morumbi' target='blank'>Hotel Website</a>
+                    <a className='mt-8' href='#maps'>
+                        <button className=' w/60 lg:w-80 p-2 px-4 bg-[#35bc3d] text-white font-semibold border-2 border-white hover:bg-transparent hover:text-[#005720] hover:border-[#005720] duration-300 mt-auto'>Get Directions</button>
+                    </a>
+                </div>
+                <div className='relative h-[400px] pt-12 lg:w-1/2 md:w-2/3 w-full'>
+                    <img className='absolute h-[200px] xl:h-[250px] rounded-3xl' src={bluestar1}></img>
+                    <img className='relative top-[120px] left-[60px] sm:top-[120px] sm:left-[150px] xl:top-[150px] xl:left-[200px] h-[200px] xl:h-[250px] rounded-3xl' src={bluestar2}></img>
+                </div>
+            </div>
             <div className='flex w-full bg-[#95d5b2] mt-12 justify-center items-center md:p-8 lg:p-4'>
                 <div className=' lg:w-[95%] flex flex-col items-center justify-between'>
                     <h1 className='text-white font-bold text-6xl lg:text-8xl my-4 text-center'>Event Highlights</h1>
@@ -65,19 +83,45 @@ const About = () => {
             <div className='flex flex-col lg:flex-row mt-12 justify-center w-full px-8 items-center'>
                 <h1 className='text-4xl lg:text-6xl xl:text-8xl text-[#35bc3d] font-bold w-full lg:w-[250px] hosts xl:w-[400px] my-4'>The Hosts</h1>
                 <div className='flex flex-col sm:flex-row'>
-                    <div className='flex flex-col items-center w-full lg:w-[400px] mr-16 my-8'>
-                        <div className='flex h-40 w-40 sm:h-40 sm:w-40 lg:h-60 lg:w-60 xl:h-80 xl:w-80 bg-black rounded-full overflow-hidden'>
-                            <img className='h-full' src={host1} alt="Host 1"></img>
+                    <div className='flex flex-col items-center w-full lg:w-[280px] my-8'>
+                        <div className='flex h-40 w-40 sm:h-40 sm:w-40 lg:h-52 lg:w-52 xl:h-64 xl:w-64 bg-black rounded-full relative'>
+                            <a href=''>
+                                <div className='absolute lg:top-3 lg:right-3 xl:top-4 xl:right-4 bg-[#005720] h-12 w-12 rounded-full hover:scale-110 duration-200 flex justify-center items-center'>
+
+                                    <img className='h-[50%]' src={linkedin}></img>
+
+                                </div>
+                            </a>
+                            <img className='h-full rounded-full' src={host1} alt="Host 1"></img>
                         </div>
                         <h1 className='text-center md:text-xl lg:text-2xl xl:text-4xl font-semibold text-[#005720] mt-8'>Funmilayo Ogunsanmi</h1>
-                        <h3 className='text-center text-base lg:text-md xl:text-lg font-light text-[#35bc3d]'>President – Hub for Digital Excellence || CEO – Havens Borderless Group of Companies(Travel & Tour, Property, Staffing)</h3>
+
                     </div>
-                    <div className='flex flex-col items-center w-full lg:w-[400px] my-8'>
-                        <div className='flex h-40 w-40 sm:h-40 sm:w-40 lg:h-60 lg:w-60 xl:h-80 xl:w-80 bg-black rounded-full overflow-hidden'>
-                            <img className='h-full' src={host2} alt="Host 2"></img>
+                    <div className='flex flex-col items-center w-full lg:w-[280px] my-8'>
+                        <div className='flex h-40 w-40 sm:h-40 sm:w-40 lg:h-52 lg:w-52 xl:h-64 xl:w-64 bg-black rounded-full relative'>
+                            <a href=''>
+                                <div className='absolute lg:top-3 lg:right-3 xl:top-4 xl:right-4 bg-[#005720] h-12 w-12 rounded-full hover:scale-110 duration-200 flex justify-center items-center'>
+
+                                    <img className='h-[50%]' src={linkedin}></img>
+
+                                </div>
+                            </a>
+                            <img className='h-full rounded-full' src={host2} alt="Host 2"></img>
                         </div>
-                        <h1 className='text-center  md:text-xl lg:text-2xl xl:text-4xl font-semibold text-[#005720] mt-8 w-60'>Kelvin Tersoo Jiraji</h1>
-                        <h3 className='text-center text-base lg:text-md xl:text-lg font-light text-[#35bc3d]'>CEO – Agric Tech Innovation Hub || Africa Digital Economy Limited</h3>
+                        <h1 className='text-center  md:text-xl lg:text-2xl xl:text-4xl font-semibold text-[#005720] mt-8 w-40 lg:w-56'>Kelvin Tersoo Jiraji</h1>
+                    </div>
+                    <div className='flex flex-col items-center w-full lg:w-[280px] my-8'>
+                        <div className='flex h-40 w-40 sm:h-40 sm:w-40 lg:h-52 lg:w-52 xl:h-64 xl:w-64 bg-black rounded-full relative'>
+                            <a href=''>
+                                <div className='absolute lg:top-3 lg:right-3 xl:top-4 xl:right-4 bg-[#005720] h-12 w-12 rounded-full hover:scale-110 duration-200 flex justify-center items-center'>
+
+                                    <img className='h-[50%]' src={linkedin}></img>
+
+                                </div>
+                            </a>
+                            <img className='h-full rounded-full' src={host3} alt="Host 2"></img>
+                        </div>
+                        <h1 className='text-center  md:text-xl lg:text-2xl xl:text-4xl font-semibold text-[#005720] mt-8 w-40 lg:w-56'>Dr. Tammy Francis</h1>
                     </div>
                 </div>
             </div>

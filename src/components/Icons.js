@@ -19,7 +19,7 @@ const Icons = () => {
     }, []);
 
     return (
-        <div className='w-screen h-screen hidden md:grid grid-cols-2 grid-rows-2 absolute'>
+        <div className='w-screen h-screen hidden md:grid grid-cols-2 grid-rows-2 absolute icons'>
             <div className='absolute md:top-20 md:left-4 lg:top-12 lg:left-4 xl:top-16 xl:left-12 m-4 p-4 bg-white rounded-full md:h-[200px] md:w-[200px] lg:h-[300px] lg:w-[300px] flex justify-center items-center hero1'></div>
             <div className='absolute md:top-[80px] md:right-12 lg:top-80 lg:right-12 xl:top-80 xl:right-20 m-4 p-4 text-white rounded-full md:h-[150px] md:w-[150px] lg:h-[200px] lg:w-[200px] flex justify-center items-center text-center md:text-md lg:text-2xl bg-[#35bc3d] lg:font-bold md:font-light'>The Africa Digital Economy Awards 2024</div>
             <div className='absolute md:top-80 md:right-4 lg:top-16 lg:right-12 xl:bottom-0 xl:right-20 m-4 p-4 bg-white rounded-full md:h-[200px] md:w-[200px] lg:h-[300px] lg:w-[300px] flex justify-center items-center hero2'></div>

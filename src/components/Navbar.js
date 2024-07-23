@@ -19,10 +19,10 @@ const Navbar = () => {
                 <h1>Speakers</h1>
                 <h1>Schedule</h1>
                 <h1>Sponsors</h1>
-                <h1>Travel Guide</h1>
+                <h1>Apply for Visa</h1>
             </div>
             <div className='hidden md:block w-[160px]'>
-                <button className="text-[#35bc3d] border-2 border-[#35bc3d] p-2 px-4 rounded-lg font-semibold">Sponsor Us</button>
+                <button className="text-[#35bc3d] border-2 border-[#35bc3d] p-2 px-4 rounded-lg font-semibold hover:scale-110 duration-150">Sponsor Us</button>
             </div>
             <div className='md:hidden' onClick={toggleMenu}>
                 <img className='w-8 h-8' src={menuOpen ? closeIcon : menuIcon} alt="Menu" />
@@ -32,7 +32,7 @@ const Navbar = () => {
                     <h1>Speakers</h1>
                     <h1>Schedule</h1>
                     <h1>Sponsors</h1>
-                    <h1>Travel Guide</h1>
+                    <h1>Apply for Visa</h1>
                     <button className="text-[#35bc3d] border-2 border-[#35bc3d] p-4 px-8 rounded-lg font-semibold text-2xl">Sponsor Us</button>
                     <button className='m-4 font-semibold rounded-lg p-4 px-8 bg-[#35bc3d] text-white text-2xl'>Buy Tickets</button>
                 </div>
