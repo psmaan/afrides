@@ -7,11 +7,11 @@ const FAQ = () => {
     const faqs = [
         {
             question: "What is the Africa Digital Economy Summit?",
-            answer: "The Africa Digital Economy Summit is an impactful and forward-thinking conference designed to expedite the realization of Africa's digital economy aspirations."
+            answer: "The Africa Digital Economy Summit (AfriDES) is a conference aimed at accelerating Africa's digital economy aspirations. It brings together key stakeholders, thought leaders, innovators, policymakers, and industry experts to foster collaboration, share insights, and devise strategic solutions for advancing Africa's digital landscape."
         },
         {
-            question: "When and where is the summit held?",
-            answer: "The summit will be held from October 22nd to 25th, 2024, at Hilton Sao Paulo Morumbi, Sao Paulo, Brazil."
+            question: "When and where is the summit taking place?",
+            answer: "The summit will be held from October 22nd to 25th, 2024, at Blue Star Premium Morumbi, Sao Paulo, Brazil."
         },
         {
             question: "What are the main themes of the summit?",
@@ -24,7 +24,19 @@ const FAQ = () => {
         {
             question: "What are the objectives of the summit?",
             answer: "Showcase African innovation and investment potential, foster international collaboration, promote policy advocacy, provide capacity building, and accelerate smart investment and risk mitigation."
-        }
+        },
+        {
+            question: "What can participants expect from the summit?",
+            answer: "Participants can expect engaging keynote sessions, panel discussions, workshops, and networking opportunities, all aimed at providing valuable knowledge, exchanging ideas, and forging partnerships"
+        },
+        {
+            question: "What is the Africa Digital Economy Awards 2024?",
+            answer: "The Africa Digital Economy Awards 2024 is an event featured at the summit to recognize and honor outstanding digital initiatives and innovations that are driving economic growth and improving livelihoods in Africa."
+        },
+        {
+            question: "What role does AfriDES play in Africa’s digital transformation?",
+            answer: "AfriDES serves as a platform for reflection and dialogue on Africa's digital transformation, addressing structural concerns, risks mitigation, and smart investment to meet new requirements."
+        },
     ];
 
     const toggleFAQ = (index) => {

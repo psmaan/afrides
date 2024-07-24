@@ -18,6 +18,8 @@ import bluestar2 from './media/bluestar2.jpeg';
 import host1 from './media/fummilayohost.jpeg';
 import host2 from './media/kelvinhost.jpeg';
 import host3 from './media/host3.jpeg';
+import speaker1 from './media/adetunji.jpeg';
+import speaker2 from './media/profkelly.jpeg';
 import linkedin from './media/linkedin.png';
 
 const eventHighlights = [
@@ -41,7 +43,7 @@ const About = () => {
                 <div className='lg:ml-8 lg:pt-4 xl:pt-12'>
                     <h1 className='text-4xl lg:text-4xl xl:text-6xl font-bold text-[#35bc3d] mt-4'>About the Event</h1>
                     <h2 className='text-lg lg:text-lg xl:text-xl font-light text-[#7b7b7b] mt-8'>
-                        The Africa Digital Economy Summit is an impactful and forward-thinking conference designed to expedite the realization of Africa's digital economy aspirations. This summit serves as a dynamic platform where key stakeholders, thought leaders, innovators, policymakers, and industry experts converge to foster collaboration, share insights, and devise strategic solutions for advancing Africa's digital landscape.
+                        The Africa Digital Economy Summit (AfriDES)-Sao Paolo Edition aims to harness the potential of digital technologies to drive economic growth and development across the African continent. Hosting the Sao Paulo Edition of AfriDES on the sidelines of the G20 in Brazil presents a unique opportunity to engage with Governments, Global leaders, policymakers, and industry stakeholders to foster collaboration and share best practices.
                     </h2>
                     <div className='flex mt-8'>
                         <h1 className='mr-8 text-lg lg:text-2xl flex items-center font-light hover:border-b-2 text-[#7b7b7b] hover:scale-110 origin-left duration-200 cursor-pointer'>Read More<img className='h-6' src={linkarrow}></img></h1>
@@ -132,14 +134,14 @@ const About = () => {
                 <div className='flex flex-col sm:flex-row'>
                     <div className='flex flex-col items-center w-full lg:w-[360px] mr-4 my-8'>
                         <div className='flex h-40 w-40 sm:h-40 sm:w-40 lg:h-60 lg:w-60 xl:h-80 xl:w-80 bg-black rounded-full overflow-hidden'>
-                            <img className='h-full' src={host1} alt="Speaker 1"></img>
+                            <img className='h-full' src={speaker1} alt="Speaker 1"></img>
                         </div>
                         <h1 className='text-center text-xl lg:text-2xl xl:text-4xl font-semibold text-[#35bc3d] mt-8'>Adetunji Anthony Adeleke</h1>
                         <h3 className='text-center text-base md:text lg:text-lg font-light text-gray-300'>Co-Founder at CHIMENET, Indianapolis, Indiana, USA</h3>
                     </div>
                     <div className='flex flex-col items-center w-full lg:w-[360px] my-8'>
                         <div className='flex h-40 w-40 sm:h-40 sm:w-40 lg:h-60 lg:w-60 xl:h-80 xl:w-80 bg-black rounded-full overflow-hidden'>
-                            <img className='h-full' src={host2} alt="Speaker 2"></img>
+                            <img className='h-full' src={speaker2} alt="Speaker 2"></img>
                         </div>
                         <h1 className='text-center text-xl lg:text-2xl xl:text-4xl font-semibold text-[#35bc3d] mt-8'>Prof. Kelly Kingsly Mua</h1>
                         <h3 className='text-center text-base lg:text-lg font-light text-gray-300'>Finance Engineer | Board Director at ATIDI</h3>
