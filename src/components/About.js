@@ -40,10 +40,12 @@ const About = () => {
                 <div className='h-[300px] lg:h-[500px] min-w-full lg:min-w-[400px] rounded-2xl overflow-hidden about-image bg-gray-200'>
                     <img src={aboutimg} alt="About" className='object-cover w-full h-full' />
                 </div>
-                <div className='lg:ml-8 lg:pt-4 xl:pt-12'>
-                    <h1 className='text-4xl lg:text-4xl xl:text-6xl font-bold text-[#35bc3d] mt-4'>About the Event</h1>
+                <div className='lg:ml-8 lg:pt-4 xl:pt-4'>
+                    <h1 className='text-4xl lg:text-4xl xl:text-6xl font-bold text-[#35bc3d]'>About the Event</h1>
                     <h2 className='text-lg lg:text-lg xl:text-xl font-light text-[#7b7b7b] mt-8'>
-                        The Africa Digital Economy Summit (AfriDES)-Sao Paolo Edition aims to harness the potential of digital technologies to drive economic growth and development across the African continent. Hosting the Sao Paulo Edition of AfriDES on the sidelines of the G20 in Brazil presents a unique opportunity to engage with Governments, Global leaders, policymakers, and industry stakeholders to foster collaboration and share best practices.
+                        The African Digital Economy Summit is an impactful and forward-thinking conference designed to expedite the realization of Africa’s digital economy aspirations. The summit serves as a dynamic platform where key stakeholders, thought leaders, innovators, policymakers, and industry experts converge to foster collaboration, share insights, and device strategic solutions for advancing Africa’s digital landscape.
+                        <br></br>
+                        The Africa Digital Economy Summit (AfriDES)-São Paolo Edition aims to harness the potential of digital technologies to drive economic growth and development across the African continent. Hosting the São Paulo Edition of AfriDES on the sidelines of the G20 in Brazil presents a unique opportunity to engage with Governments, Global leaders, policymakers, and industry stakeholders to foster collaboration and share best practices.
                     </h2>
                     <div className='flex mt-8'>
                         <h1 className='mr-8 text-lg lg:text-2xl flex items-center font-light hover:border-b-2 text-[#7b7b7b] hover:scale-110 origin-left duration-200 cursor-pointer'>Read More<img className='h-6' src={linkarrow}></img></h1>
@@ -54,7 +56,7 @@ const About = () => {
             <div className='w-full flex md:flex-row flex-col bg-[#35bc3d] mt-12 p-4 sm:p-8 sm:px-12'>
                 <div className='w-full md:w-1/3 lg:w-1/2 ml-0 lg:ml-12 md:h-[450px] flex flex-col items-start md:py-20 xl:p-20'>
                     <h1 className='text-[#005720] font-bold text-4xl lg:text-6xl'>The Venue</h1>
-                    <h2 className=' text-xl lg:text-3xl font-normal text-[#95d5b2] mt-4'>Blue Tree Premium Morumbi, Sau Paulo</h2>
+                    <h2 className=' text-xl lg:text-3xl font-normal text-[#95d5b2] mt-4'>Blue Tree Premium Morumbi, Sãu Paulo</h2>
                     <a className='text-white mt-2 text-2xl font-light underline underline-offset-4 hover:scale-110 duration-150 origin-left' href='https://www.bluetree.com.br/hotel/blue-tree-premium-morumbi' target='blank'>Hotel Website</a>
                     <a className='mt-8' href='#maps'>
                         <button className=' w/60 lg:w-80 p-2 px-4 bg-[#35bc3d] text-white font-semibold border-2 border-white hover:bg-transparent hover:text-[#005720] hover:border-[#005720] duration-300 mt-auto'>Get Directions</button>
