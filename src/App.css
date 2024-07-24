@@ -173,7 +173,10 @@ html {
 }
 
 .saopaulo {
-  background-color: #95d5b2;
+  background: url('./components/media/landingbgfinal.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 @media (max-width: 768px) {
