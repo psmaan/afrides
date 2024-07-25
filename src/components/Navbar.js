@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import logo from './media/logo.png';
-import t20 from './media/t20.jpeg';
+import g20 from './media/g20.png';
 import menuIcon from './media/menu.png'; // Placeholder for menu icon
 import closeIcon from './media/close.png'; // Placeholder for close icon
 
@@ -12,12 +12,12 @@ const Navbar = () => {
     };
 
     return (
-        <div className='p-4 bg-[#95d5b2] w-screen h-20 flex justify-between lg:pr-8 sm:pr-8 md:p-2 items-center navbar top-0 z-20 pl-0'>
-            <div className='w-[120px] md:w-[80px] lg:w-[90px] xl:w-[120px] flex flex-row md:flex-col lg:flex-row items-center'>
-                <img className='w-full mb-2 mr-2' src={logo} alt="Logo" />
-                <img className='w-full' src={t20} alt="Logo" />
+        <div className='p-4 py-8 bg-[#95d5b2] w-screen h-24 flex justify-between lg:pr-8 sm:pr-8 md:p-2 items-center navbar top-0 z-20 pl-0'>
+            <div className='w-[120px] md:w-[70px] lg:w-[85px] xl:w-[120px] flex flex-row md:flex-row items-center'>
+                <img className='h-full mb-2 mr-2' src={g20} alt="Logo" />
+                <img className='h-full' src={logo} alt="Logo" />
             </div>
-            <div className='hidden md:flex navbar-links items-end space-x-8'>
+            <div className='hidden md:flex navbar-links items-end lg:space-x-8'>
                 <h1>Speakers</h1>
                 <h1>Schedule</h1>
                 <h1>Sponsors</h1>

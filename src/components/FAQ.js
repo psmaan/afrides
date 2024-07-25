@@ -11,7 +11,7 @@ const FAQ = () => {
         },
         {
             question: "When and where is the summit taking place?",
-            answer: "The summit will be held from October 22nd to 25th, 2024, at Blue Star Premium Morumbi, Sao Paulo, Brazil."
+            answer: "The summit will be held from October 22nd to 25th, 2024, at Blue Tree Premium Paulista, Sãu Paulo, Brazil."
         },
         {
             question: "What are the main themes of the summit?",

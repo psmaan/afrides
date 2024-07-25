@@ -4,7 +4,8 @@ const Landing = () => {
             <h2 className='text-[#95d5b2] md:text-[#005720] font-light md:mb-12 text-2xl'>22-25th October 2024</h2>
             <h1 className='font-bold text-6xl sm:text-7xl md:text-8xl text-center w-[90%] text-[#35bc3d] '>Africa <span className='text-white'>Digital Economy Summit</span></h1>
             <h2 className="text-center text-3xl text-[#35bc3d] md:text-[#95d5b2] font-bold mt-2">SAO PAULO EDITION</h2>
-            <h2 className='text-center mt-8 text-2xl text-[#95d5b2] md:text-[#35bc3d] font-["Bebas Neue"] font-semibold w-[50%]'>Digital Transformation for Sustainable Growth: Africa’s Path to a Connected Future</h2>
+            <h2 className='text-center mt-8 text-2xl text-[#95d5b2] md:text-[#35bc3d] font-["Bebas Neue"] font-semibold w-[80%] md:w-[50%]'>Digital Transformation for Sustainable Growth: Africa’s Path to a Connected Future</h2>
+            <h1 className="text-4xl text-white font-bold my-8 text-white md:text-blue-200">A G20 Side Event</h1>
             <div className='flex items-center hero-buttons mt-2 flex-row'>
                 <button className='m-4 font-semibold rounded-lg p-2 px-4 bg-[#35bc3d] text-white'>Brochure</button>
                 <button className='m-4 font-semibold rounded-lg p-2 px-4 bg-[#35bc3d] text-white'>Buy Tickets</button>

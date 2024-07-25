@@ -12,14 +12,15 @@ import sustain from './media/sustainable.png';
 import investment from './media/investment.png';
 import left from './media/leftarrow.png';
 import right from './media/rightarrow.png';
-import bluestar1 from './media/bluestar1.jpeg';
-import bluestar2 from './media/bluestar2.jpeg';
+import bluestar2 from './media/btpaulista.jpeg';
+import bluestar1 from './media/hotel2.jpeg';
 
 import host1 from './media/fummilayohost.jpeg';
 import host2 from './media/kelvinhost.jpeg';
 import host3 from './media/host3.jpeg';
 import speaker1 from './media/adetunji.jpeg';
 import speaker2 from './media/profkelly.jpeg';
+import speaker3 from './media/speaker3.jpeg';
 import linkedin from './media/linkedin.png';
 
 const eventHighlights = [
@@ -41,10 +42,10 @@ const About = () => {
                     <img src={aboutimg} alt="About" className='object-cover w-full h-full' />
                 </div>
                 <div className='lg:ml-8 lg:pt-4 xl:pt-4'>
-                    <h1 className='text-4xl lg:text-4xl xl:text-6xl font-bold text-[#35bc3d]'>About the Event</h1>
+                    <h1 className='text-4xl lg:text-4xl xl:text-6xl font-bold text-[#35bc3d] mt-4'>About the Event</h1>
                     <h2 className='text-lg lg:text-lg xl:text-xl font-light text-[#7b7b7b] mt-8'>
                         The African Digital Economy Summit is an impactful and forward-thinking conference designed to expedite the realization of Africa’s digital economy aspirations. The summit serves as a dynamic platform where key stakeholders, thought leaders, innovators, policymakers, and industry experts converge to foster collaboration, share insights, and device strategic solutions for advancing Africa’s digital landscape.
-                        <br></br>
+                        <br /><br />
                         The Africa Digital Economy Summit (AfriDES)-São pãulo Edition aims to harness the potential of digital technologies to drive economic growth and development across the African continent. Hosting the São Paulo Edition of AfriDES on the sidelines of the G20 in Brazil presents a unique opportunity to engage with Governments, Global leaders, policymakers, and industry stakeholders to foster collaboration and share best practices.
                     </h2>
                     <div className='flex mt-8'>
@@ -56,8 +57,8 @@ const About = () => {
             <div className='w-full flex md:flex-row flex-col bg-[#35bc3d] mt-12 p-4 sm:p-8 sm:px-12'>
                 <div className='w-full md:w-1/3 lg:w-1/2 ml-0 lg:ml-12 md:h-[450px] flex flex-col items-start md:py-20 xl:p-20'>
                     <h1 className='text-[#005720] font-bold text-4xl lg:text-6xl'>The Venue</h1>
-                    <h2 className=' text-xl lg:text-3xl font-normal text-[#95d5b2] mt-4'>Blue Tree Premium Morumbi, Sãu Paulo</h2>
-                    <a className='text-white mt-2 text-2xl font-light underline underline-offset-4 hover:scale-110 duration-150 origin-left' href='https://www.bluetree.com.br/hotel/blue-tree-premium-morumbi' target='blank'>Hotel Website</a>
+                    <h2 className=' text-xl lg:text-3xl font-normal text-[#95d5b2] mt-4'>Blue Tree Premium Paulista, Sãu Paulo</h2>
+                    <a className='text-white mt-2 text-2xl font-light underline underline-offset-4 hover:scale-110 duration-150 origin-left' href='https://www.bluetree.com.br/hotel/blue-tree-premium-paulista' target='blank'>Hotel Website</a>
                     <a className='mt-8' href='#maps'>
                         <button className=' w/60 lg:w-80 p-2 px-4 bg-[#35bc3d] text-white font-semibold border-2 border-white hover:bg-transparent hover:text-[#005720] hover:border-[#005720] duration-300 mt-auto'>Get Directions</button>
                     </a>
@@ -132,21 +133,28 @@ const About = () => {
                 </div>
             </div>
             <div className='flex flex-col lg:flex-row-reverse mt-12 justify-center w-full p-8 items-center bg-[#005720] mb-0 sm:p-'>
-                <h1 className='text-4xl lg:text-7xl speakers text-white font-bold w-full sm:text-center lg:w-[400px] text-center lg:text-right my-4'>The Speakers</h1>
+                <h1 className='text-4xl sm:texl-6xl xl:text-7xl speakers text-white font-bold w-full sm:text-center lg:w-[235px] xl:w-[400px] text-center lg:text-right my-4'>The Speakers</h1>
                 <div className='flex flex-col sm:flex-row'>
-                    <div className='flex flex-col items-center w-full lg:w-[360px] mr-4 my-8'>
-                        <div className='flex h-40 w-40 sm:h-40 sm:w-40 lg:h-60 lg:w-60 xl:h-80 xl:w-80 bg-black rounded-full overflow-hidden'>
+                    <div className='flex flex-col items-center w-full xl:w-[300px] mr-4 my-8'>
+                        <div className='flex h-40 w-40 sm:h-40 sm:w-40 lg:h-60 lg:w-60 xl:h-60 xl:w-60 bg-black rounded-full overflow-hidden'>
                             <img className='h-full' src={speaker1} alt="Speaker 1"></img>
                         </div>
-                        <h1 className='text-center text-xl lg:text-2xl xl:text-4xl font-semibold text-[#35bc3d] mt-8'>Adetunji Anthony Adeleke</h1>
+                        <h1 className='text-center text-xl lg:text-2xl xl:text-3xl font-semibold text-[#35bc3d] mt-8'>Adetunji Anthony Adeleke</h1>
                         <h3 className='text-center text-base md:text lg:text-lg font-light text-gray-300'>Co-Founder at CHIMENET, Indianapolis, Indiana, USA</h3>
                     </div>
-                    <div className='flex flex-col items-center w-full lg:w-[360px] my-8'>
-                        <div className='flex h-40 w-40 sm:h-40 sm:w-40 lg:h-60 lg:w-60 xl:h-80 xl:w-80 bg-black rounded-full overflow-hidden'>
+                    <div className='flex flex-col items-center w-full xl:w-[300px] my-8'>
+                        <div className='flex h-40 w-40 sm:h-40 sm:w-40 lg:h-60 lg:w-60 xl:h-60 xl:w-60 bg-black rounded-full overflow-hidden'>
                             <img className='h-full' src={speaker2} alt="Speaker 2"></img>
                         </div>
-                        <h1 className='text-center text-xl lg:text-2xl xl:text-4xl font-semibold text-[#35bc3d] mt-8'>Prof. Kelly Kingsly Mua</h1>
+                        <h1 className='text-center text-xl lg:text-2xl xl:text-3xl font-semibold text-[#35bc3d] mt-8 xl:w-full w-[80%]'>Prof. Kelly Kingsly Mua</h1>
                         <h3 className='text-center text-base lg:text-lg font-light text-gray-300'>Finance Engineer | Board Director at ATIDI</h3>
+                    </div>
+                    <div className='flex flex-col items-center w-full xl:w-[300px] my-8'>
+                        <div className='flex h-40 w-40 sm:h-40 sm:w-40 lg:h-60 lg:w-60 xl:h-60 xl:w-60 bg-black rounded-full overflow-hidden'>
+                            <img className='h-full' src={speaker3} alt="Speaker 2"></img>
+                        </div>
+                        <h1 className='text-center text-xl lg:text-2xl xl:text-3xl font-semibold text-[#35bc3d] mt-8'>Dr. Christopher Brooks</h1>
+                        <h3 className='text-center text-base lg:text-lg font-light text-gray-300'>Managing Partner; Brown Venture Group</h3>
                     </div>
                 </div>
             </div>
