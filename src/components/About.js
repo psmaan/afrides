@@ -49,8 +49,10 @@ const About = () => {
                         The Africa Digital Economy Summit (AfriDES)-São pãulo Edition aims to harness the potential of digital technologies to drive economic growth and development across the African continent. Hosting the São Paulo Edition of AfriDES on the sidelines of the G20 in Brazil presents a unique opportunity to engage with Governments, Global leaders, policymakers, and industry stakeholders to foster collaboration and share best practices.
                     </h2>
                     <div className='flex mt-8'>
-                        <h1 className='mr-8 text-lg lg:text-2xl flex items-center font-light hover:border-b-2 text-[#7b7b7b] hover:scale-110 origin-left duration-200 cursor-pointer'>Read More<img className='h-6' src={linkarrow}></img></h1>
-                        <h1 className='mr-8 text-lg lg:text-2xl flex items-center font-light hover:border-b-2 text-[#7b7b7b] hover:scale-110 origin-left duration-200 cursor-pointer'>The Speakers<img className='h-6' src={linkarrow}></img></h1>
+                        <h1 className='mr-8 sm:text-lg lg:text-2xl flex items-center font-light hover:border-b-2 text-[#7b7b7b] hover:scale-110 origin-left duration-200 cursor-pointer'>Read More<img className='h-6' src={linkarrow}></img></h1>
+                        <a href='#speakers'>
+                            <h1 className='mr-8 sm:text-lg lg:text-2xl flex items-center font-light hover:border-b-2 text-[#7b7b7b] hover:scale-110 origin-left duration-200 cursor-pointer'>The Speakers<img className='h-6' src={linkarrow}></img></h1>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -132,9 +134,16 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex flex-col lg:flex-row-reverse mt-12 justify-center w-full p-8 items-center bg-[#005720] mb-0 sm:p-'>
+            <div id='speakers' className='flex flex-col lg:flex-row-reverse mt-12 justify-center w-full p-8 items-center bg-[#005720] mb-0 sm:p-'>
                 <h1 className='text-4xl sm:texl-6xl xl:text-7xl speakers text-white font-bold w-full sm:text-center lg:w-[235px] xl:w-[400px] text-center lg:text-right my-4'>The Speakers</h1>
                 <div className='flex flex-col sm:flex-row'>
+                    <div className='flex flex-col items-center w-full xl:w-[300px] my-8'>
+                        <div className='flex h-40 w-40 sm:h-40 sm:w-40 lg:h-60 lg:w-60 xl:h-60 xl:w-60 bg-black rounded-full overflow-hidden'>
+                            <img className='h-full' src={speaker3} alt="Speaker 2"></img>
+                        </div>
+                        <h1 className='text-center text-xl lg:text-2xl xl:text-3xl font-semibold text-[#35bc3d] mt-8'>Dr. Christopher Brooks</h1>
+                        <h3 className='text-center text-base lg:text-lg font-light text-gray-300'>Managing Partner; Brown Venture Group</h3>
+                    </div>
                     <div className='flex flex-col items-center w-full xl:w-[300px] mr-4 my-8'>
                         <div className='flex h-40 w-40 sm:h-40 sm:w-40 lg:h-60 lg:w-60 xl:h-60 xl:w-60 bg-black rounded-full overflow-hidden'>
                             <img className='h-full' src={speaker1} alt="Speaker 1"></img>
@@ -148,13 +157,6 @@ const About = () => {
                         </div>
                         <h1 className='text-center text-xl lg:text-2xl xl:text-3xl font-semibold text-[#35bc3d] mt-8 xl:w-full w-[80%]'>Prof. Kelly Kingsly Mua</h1>
                         <h3 className='text-center text-base lg:text-lg font-light text-gray-300'>Finance Engineer | Board Director at ATIDI</h3>
-                    </div>
-                    <div className='flex flex-col items-center w-full xl:w-[300px] my-8'>
-                        <div className='flex h-40 w-40 sm:h-40 sm:w-40 lg:h-60 lg:w-60 xl:h-60 xl:w-60 bg-black rounded-full overflow-hidden'>
-                            <img className='h-full' src={speaker3} alt="Speaker 2"></img>
-                        </div>
-                        <h1 className='text-center text-xl lg:text-2xl xl:text-3xl font-semibold text-[#35bc3d] mt-8'>Dr. Christopher Brooks</h1>
-                        <h3 className='text-center text-base lg:text-lg font-light text-gray-300'>Managing Partner; Brown Venture Group</h3>
                     </div>
                 </div>
             </div>
