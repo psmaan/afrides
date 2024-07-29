@@ -6,6 +6,7 @@ import Landing from './components/Landing.js'
 import Icons from './components/Icons.js'
 import About from './components/About.js'
 import Countdown from './components/Countdown.js'
+import Tickets from './components/Tickets.js'
 import FAQ from './components/FAQ.js'
 import Venue from './components/Venue.js';
 
@@ -17,6 +18,7 @@ function App() {
       <Landing></Landing>
       <About></About>
       <Countdown></Countdown>
+      <Tickets></Tickets>
       <FAQ></FAQ>
       <Venue></Venue>
     </>
