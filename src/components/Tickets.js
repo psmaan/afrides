@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import ticket from './media/ticket.png'
 import tick from './media/tick.png'
 
 const Tickets = () => {
+
     return (
         <div className='w-full bg-[#95d5b2] flex flex-col items-center py-12'>
             <h1 className='text-[#35bc3d] font-bold text-6xl'>Buy Tickets</h1>

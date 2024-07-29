@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 
 import linkarrow from './media/linkarrow.png';
 import aboutimg from './media/aboutimage.jpeg';
@@ -35,6 +35,12 @@ const eventHighlights = [
 ];
 
 const About = () => {
+    const ticketRef = useRef(null);
+
+    const scrollToSection = () => {
+        ticketRef.current.scrollIntoView({ behavior: 'smooth' });
+    };
+
     return (
         <div className='w-full flex flex-col items-center my-20 mb-0 about-section'>
             <div className='flex w-[80%] flex-col lg:flex-row'>
@@ -49,8 +55,10 @@ const About = () => {
                         The Africa Digital Economy Summit (AfriDES)-G20 Edition aims to harness the potential of digital technologies to drive economic growth and development across the African continent. Hosting the G20 Edition of AfriDES in São Paulo on the sidelines of the G20 summit in Brazil presents a unique opportunity to engage with Governments, Global leaders, policymakers, and industry stakeholders to foster collaboration and share best practices.
                     </h2>
                     <div className='flex mt-8'>
-                        <h1 className='mr-8 sm:text-lg lg:text-2xl flex items-center font-light hover:border-b-2 text-[#7b7b7b] hover:scale-110 origin-left duration-200 cursor-pointer'>Read More<img className='h-6' src={linkarrow}></img></h1>
-                        <a href='#speakers'>
+                        <a href='#tickets'>
+                            <h1 className='mr-8 sm:text-lg lg:text-2xl flex items-center font-light hover:border-b-2 text-[#7b7b7b] hover:scale-110 origin-left duration-200 cursor-pointer'>Read More<img className='h-6' src={linkarrow}></img></h1>
+                        </a>
+                        <a onClick={scrollToSection}>
                             <h1 className='mr-8 sm:text-lg lg:text-2xl flex items-center font-light hover:border-b-2 text-[#7b7b7b] hover:scale-110 origin-left duration-200 cursor-pointer'>The Speakers<img className='h-6' src={linkarrow}></img></h1>
                         </a>
                     </div>

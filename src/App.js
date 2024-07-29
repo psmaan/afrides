@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import React, { useRef } from 'react';
 import './App.css';
 
 import Navbar from './components/Navbar.js'
@@ -11,16 +11,24 @@ import FAQ from './components/FAQ.js'
 import Venue from './components/Venue.js';
 
 function App() {
+  const ticketsRef = useRef(null);
+
+  const scrollToTickets = () => {
+    ticketsRef.current.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <>
-      <Icons></Icons>
-      <Navbar></Navbar>
-      <Landing></Landing>
-      <About></About>
-      <Countdown></Countdown>
-      <Tickets></Tickets>
-      <FAQ></FAQ>
-      <Venue></Venue>
+      <Icons />
+      <Navbar />
+      <Landing scrollToTickets={scrollToTickets} />
+      <About />
+      <Countdown />
+      <div ref={ticketsRef}>
+        <Tickets />
+      </div>
+      <FAQ />
+      <Venue />
     </>
   );
 }
