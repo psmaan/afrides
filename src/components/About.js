@@ -22,6 +22,7 @@ import speaker1 from './media/adetunji.jpeg';
 import speaker2 from './media/profkelly.jpeg';
 import speaker3 from './media/speaker3.jpeg';
 import linkedin from './media/linkedin.png';
+import books from './media/books.png';
 
 const eventHighlights = [
     { img: infrastructure, title: 'Digital Infrastructure and Connectivity' },
@@ -146,22 +147,50 @@ const About = () => {
                 <h1 className='text-4xl sm:texl-6xl xl:text-7xl speakers text-white font-bold w-full sm:text-center lg:w-[235px] xl:w-[400px] text-center lg:text-right my-4'>The Speakers</h1>
                 <div className='flex flex-col sm:flex-row'>
                     <div className='flex flex-col items-center w-full xl:w-[300px] my-8'>
-                        <div className='flex h-40 w-40 sm:h-40 sm:w-40 lg:h-60 lg:w-60 xl:h-60 xl:w-60 bg-black rounded-full overflow-hidden'>
-                            <img className='h-full' src={speaker3} alt="Speaker 2"></img>
+                        <div className='flex h-40 w-40 sm:h-40 sm:w-40 lg:h-60 lg:w-60 xl:h-60 xl:w-60 bg-black rounded-full relative'>
+                            <a href='https://www.linkedin.com/in/drchrisbrooks?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' target='blank'>
+                                <div className='absolute lg:top-3 lg:right-3 xl:top-4 xl:right-4 bg-[#35bc3d] h-12 w-12 rounded-full hover:scale-110 duration-200 flex justify-center items-center'>
+
+                                    <img className='h-[50%]' src={linkedin}></img>
+
+                                </div>
+                            </a>
+                            <img className='h-full rounded-full' src={speaker3} alt="Speaker 2"></img>
                         </div>
                         <h1 className='text-center text-xl lg:text-2xl xl:text-3xl font-semibold text-[#35bc3d] mt-8'>Dr. Christopher Brooks</h1>
                         <h3 className='text-center text-base lg:text-lg font-light text-gray-300'>Managing Partner; Brown Venture Group</h3>
                     </div>
                     <div className='flex flex-col items-center w-full xl:w-[300px] mr-4 my-8'>
-                        <div className='flex h-40 w-40 sm:h-40 sm:w-40 lg:h-60 lg:w-60 xl:h-60 xl:w-60 bg-black rounded-full overflow-hidden'>
-                            <img className='h-full' src={speaker1} alt="Speaker 1"></img>
+                        <div className='flex h-40 w-40 sm:h-40 sm:w-40 lg:h-60 lg:w-60 xl:h-60 xl:w-60 bg-black rounded-full relative'>
+                            <a href='https://www.linkedin.com/in/adetunji-anthony-adeleke-13567312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' target='blank'>
+                                <div className='absolute lg:top-3 lg:right-3 xl:top-4 xl:right-4 bg-[#35bc3d] h-12 w-12 rounded-full hover:scale-110 duration-200 flex justify-center items-center'>
+
+                                    <img className='h-[50%]' src={linkedin}></img>
+
+                                </div>
+                            </a>
+                            <img className='w-full rounded-full' src={speaker1} alt="Speaker 1"></img>
                         </div>
                         <h1 className='text-center text-xl lg:text-2xl xl:text-3xl font-semibold text-[#35bc3d] mt-8'>Adetunji Anthony Adeleke</h1>
                         <h3 className='text-center text-base md:text lg:text-lg font-light text-gray-300'>Co-Founder at CHIMENET, Indianapolis, Indiana, USA</h3>
                     </div>
                     <div className='flex flex-col items-center w-full xl:w-[300px] my-8'>
-                        <div className='flex h-40 w-40 sm:h-40 sm:w-40 lg:h-60 lg:w-60 xl:h-60 xl:w-60 bg-black rounded-full overflow-hidden'>
-                            <img className='h-full' src={speaker2} alt="Speaker 2"></img>
+                        <div className='flex h-40 w-40 sm:h-40 sm:w-40 lg:h-60 lg:w-60 xl:h-60 xl:w-60 bg-black rounded-full relative'>
+                            <a href='https://www.linkedin.com/in/kellykingsley/' target='blank'>
+                                <div className='absolute lg:top-3 lg:right-5 xl:top-4 xl:right-6 bg-[#35bc3d] h-12 w-12 rounded-full hover:scale-110 duration-200 flex justify-center items-center'>
+
+                                    <img className='h-[50%]' src={linkedin}></img>
+
+                                </div>
+                            </a>
+                            <a href='https://amazon.com/author/kellymuakingsly' target='blank'>
+                                <div className='absolute lg:top-3 lg:right-1 xl:top-4 xl:-right-8 bg-[#35bc3d] h-12 w-12 rounded-full hover:scale-110 duration-200 flex justify-center items-center'>
+
+                                    <img className='h-full rounded-full' src={books}></img>
+
+                                </div>
+                            </a>
+                            <img className='w-full rounded-full' src={speaker2} alt="Speaker 2"></img>
                         </div>
                         <h1 className='text-center text-xl lg:text-2xl xl:text-3xl font-semibold text-[#35bc3d] mt-8 xl:w-full w-[80%]'>Prof. Kelly Kingsly Mua</h1>
                         <h3 className='text-center text-base lg:text-lg font-light text-gray-300'>Finance Engineer | Board Director at ATIDI</h3>
