@@ -21,12 +21,14 @@ const Navbar = () => {
             </div>
             <div className='hidden md:flex navbar-links items-end lg:space-x-6'>
                 <h1>Speakers</h1>
-                <h1>Schedule</h1>
+                <h1><a href='/schedule.pdf' download>Schedule</a></h1>
                 <h1>Sponsors</h1>
-                <h1 className='text-nowrap'>Apply for Visa</h1>
+                <h1 className='text-nowrap'><a target='blank' href='https://haventravelandtour.com/g20-brazil-2024/'>Logistics</a></h1>
             </div>
             <div className='hidden w-[300px] md:flex justify-end'>
-                <button className="text-[#35bc3d] border-2 border-[#35bc3d] p-2 px-4 rounded-lg font-semibold hover:scale-110 duration-150 ml-auto">Sponsor Us</button>
+                <a href='/sponsor.pdf' download>
+                    <button className="text-[#35bc3d] border-2 border-[#35bc3d] p-2 px-4 rounded-lg font-semibold hover:scale-110 duration-150 ml-auto">Sponsor Us</button>
+                </a>
             </div>
             <div className='md:hidden' onClick={toggleMenu}>
                 <img className='w-8 h-8' src={menuOpen ? closeIcon : menuIcon} alt="Menu" />
@@ -34,10 +36,13 @@ const Navbar = () => {
             {menuOpen && (
                 <div className='md:hidden absolute top-20 left-0 w-full h-screen bg-[#95d5b2] flex flex-col items-center space-y-4 p-4 navmenu'>
                     <h1>Speakers</h1>
-                    <h1>Schedule</h1>
+                    <h1><a href='/schedule.pdf' download>Schedule</a></h1>
                     <h1>Sponsors</h1>
-                    <h1>Apply for Visa</h1>
-                    <button className="text-[#35bc3d] border-2 border-[#35bc3d] p-4 px-8 rounded-lg font-semibold text-2xl">Sponsor Us</button>
+                    <h1><a target='blank' href='https://haventravelandtour.com/g20-brazil-2024/'>Logistics</a></h1>
+                    <h1><a target='blank' href='https://amazon.com/author/kellymuakingsly'>Buy Books</a></h1>
+                    <a href='/sponsor.pdf' download>
+                        <button className="text-[#35bc3d] border-2 border-[#35bc3d] p-2 px-4 rounded-lg font-semibold hover:scale-110 duration-150 ml-auto">Sponsor Us</button>
+                    </a>
                     <button className='m-4 font-semibold rounded-lg p-4 px-8 bg-[#35bc3d] text-white text-2xl'>Buy Tickets</button>
                 </div>
             )}

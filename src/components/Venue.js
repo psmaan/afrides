@@ -22,7 +22,7 @@ const Venue = () => {
                 </div>
                 <div className='flex items-center'>
                     <img className='h-4 mr-2' src={phone}></img>
-                    <h1 className='md:text-lg lg:text-xl font-light color-[#1a1a1a]'>+1(202)500-332</h1>
+                    <h1 className='md:text-lg lg:text-xl font-light color-[#1a1a1a]'>+1(202)500-3323</h1>
                 </div>
                 <div className='flex items-center'>
                     <img className='h-4 mr-2' src={email}></img>
