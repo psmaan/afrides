@@ -22,6 +22,8 @@ import host4 from './media/host4.jpeg';
 import speaker1 from './media/adetunji.jpeg';
 import speaker2 from './media/profkelly.jpeg';
 import speaker3 from './media/speaker3.jpeg';
+import speaker4 from './media/speaker4.jpeg';
+import speaker5 from './media/speaker5.jpeg';
 import linkedin from './media/linkedin.png';
 import books from './media/books.png';
 
@@ -98,9 +100,9 @@ const About = () => {
                 </div>
             </div>
             <div className='flex flex-col mt-12 justify-center w-full px-8 items-center'>
-                <h1 className='text-4xl lg:text-6xl xl:text-8xl text-[#35bc3d] font-bold w-full lg:w-[250px] hosts xl:w-[400px] my-4'>The Hosts</h1>
-                <div className='grid  grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 md:gap-2 hosts-container'>
-                    <div className='flex flex-col items-center w-full lg:w-[240px] xl:w-[300px] my-8'>
+                <h1 className='text-4xl lg:text-6xl xl:text-8xl text-[#35bc3d] font-bold w-full text-center hosts my-4'>The Hosts</h1>
+                <div className='grid  grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-2 hosts-container'>
+                    <div className='flex sm:flex-col items-center w-full lg:w-[240px] xl:w-[300px] mt-8 sm:my-8'>
                         <div className='flex h-40 w-40 sm:h-40 sm:w-40 lg:h-44 lg:w-44 xl:h-64 xl:w-64 bg-black rounded-full relative'>
                             <a href='https://www.linkedin.com/in/funmilayo-ogunsanmi-0971ab32?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' target='blank'>
                                 <div className='absolute lg:top-3 lg:right-3 xl:top-4 xl:right-4 bg-[#005720] h-12 w-12 rounded-full hover:scale-110 duration-200 flex justify-center items-center'>
@@ -111,10 +113,12 @@ const About = () => {
                             </a>
                             <img className='h-full rounded-full' src={host1} alt="Host 1"></img>
                         </div>
-                        <h1 className='text-center md:text-xl lg:text-2xl xl:text-4xl font-semibold text-[#005720]  mt-4 lg:mt-8 w-[200px] lg:w-[250px]'>Funmilayo Ogunsanmi</h1>
-                        <h2 className='text-center text-[#35bc3d] font-light text-md lg:text-xl mt-2'>Co-Chair AfriDES/President Hub For Digital Excellence </h2>
+                        <div className='w-1/2 sm:w-full pl-4 sm:pl-0'>
+                            <h1 className='text-left sm:text-center md:text-xl lg:text-2xl xl:text-4xl font-semibold text-[#005720]  mt-4 lg:mt-8 w-[200px] lg:w-[250px] w-full'>Funmilayo Ogunsanmi</h1>
+                            <h2 className=' text-left sm:text-center text-[#35bc3d] font-light text-md lg:text-xl mt-2'>Co-Chair AfriDES/President Hub For Digital Excellence </h2>
+                        </div>
                     </div>
-                    <div className='flex flex-col items-center w-full lg:w-[240px] xl:w-[300px] my-8'>
+                    <div className='flex flex-row-reverse sm:flex-col items-center w-full lg:w-[240px] xl:w-[300px] sm:my-8'>
                         <div className='flex h-40 w-40 sm:h-40 sm:w-40 lg:h-44 lg:w-44 xl:h-64 xl:w-64 bg-black rounded-full relative'>
                             <a href='https://www.linkedin.com/in/drtammyfrancis?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' target='blank'>
                                 <div className='absolute lg:top-3 lg:right-3 xl:top-4 xl:right-4 bg-[#005720] h-12 w-12 rounded-full hover:scale-110 duration-200 flex justify-center items-center'>
@@ -125,10 +129,13 @@ const About = () => {
                             </a>
                             <img className='h-full rounded-full' src={host3} alt="Host 2"></img>
                         </div>
-                        <h1 className='text-center  md:text-xl lg:text-2xl xl:text-4xl font-semibold text-[#005720]  mt-4 lg:mt-8 w-40 lg:w-56'>Dr. Tammy Francis</h1>
-                        <h2 className='text-center text-[#35bc3d] font-light text-md lg:text-xl mt-2'>Co-Chair AfriDES/Co-founder Hub For Digital Excellence</h2>
+                        <div className='w-[60%] sm:w-full pr-4 sm:pr-0'>
+                            <h1 className='text-right w-full sm:text-center  md:text-xl lg:text-2xl xl:text-4xl font-semibold text-[#005720]  mt-4 lg:mt-8 w-40 lg:w-56'>Dr. Tammy Francis</h1>
+                            <h2 className='text-right sm:text-center text-[#35bc3d] font-light text-md lg:text-xl mt-2'>Co-Chair AfriDES/Co-founder Hub For Digital Excellence</h2>
+                        </div>
+
                     </div>
-                    <div className='flex flex-col items-center w-full lg:w-[240px] xl:w-[300px] my-8'>
+                    <div className='flex sm:flex-col items-center w-full lg:w-[240px] xl:w-[300px] sm:my-8'>
                         <div className='flex h-40 w-40 sm:h-40 sm:w-40 lg:h-44 lg:w-44 xl:h-64 xl:w-64 bg-black rounded-full relative' target='blank'>
                             <a href='https://www.linkedin.com/in/kelvinjiraji?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'>
                                 <div className='absolute lg:top-3 lg:right-3 xl:top-4 xl:right-4 bg-[#005720] h-12 w-12 rounded-full hover:scale-110 duration-200 flex justify-center items-center'>
@@ -139,10 +146,12 @@ const About = () => {
                             </a>
                             <img className='h-full rounded-full' src={host2} alt="Host 2"></img>
                         </div>
-                        <h1 className='text-center  md:text-xl lg:text-2xl xl:text-4xl font-semibold text-[#005720]  mt-4 lg:mt-8 w-40 lg:w-56'>Kelvin Tersoo Jiraji</h1>
-                        <h2 className='text-center text-[#35bc3d] font-light text-md lg:text-xl mt-2'>CEO Hub For Digital Excellence</h2>
+                        <div className='w-[60%] sm:w-full pl-4 sm:pl-0'>
+                            <h1 className='text-left sm:text-center  md:text-xl lg:text-2xl xl:text-4xl font-semibold text-[#005720]  mt-4 lg:mt-8 w-full lg:w-56'>Kelvin Tersoo Jiraji</h1>
+                            <h2 className='text-left sm:text-center text-[#35bc3d] font-light text-md lg:text-xl mt-2'>CEO Hub For Digital Excellence</h2>
+                        </div>
                     </div>
-                    <div className='flex flex-col items-center w-full lg:w-[240px] xl:w-[300px] my-8'>
+                    <div className='flex flex-row-reverse sm:flex-col items-center w-full lg:w-[240px] xl:w-[300px] sm:my-8'>
                         <div className='flex h-40 w-40 sm:h-40 sm:w-40 lg:h-44 lg:w-44 xl:h-64 xl:w-64 bg-black rounded-full relative' target='blank'>
                             <a href='https://www.linkedin.com/in/john-adekunjo-6757271b5/'>
                                 <div className='absolute lg:top-3 lg:right-3 xl:top-4 xl:right-4 bg-[#005720] h-12 w-12 rounded-full hover:scale-110 duration-200 flex justify-center items-center'>
@@ -153,15 +162,18 @@ const About = () => {
                             </a>
                             <img className='h-full rounded-full' src={host4} alt="Host 2"></img>
                         </div>
-                        <h1 className='text-center  md:text-xl lg:text-2xl xl:text-4xl font-semibold text-[#005720]  mt-4 lg:mt-8 w-40 lg:w-56'>John Adekunjo</h1>
-                        <h2 className='text-center text-[#35bc3d] font-light text-md lg:text-xl mt-2'>Head of Digital Communication<br></br>Hub For Digital Excellence</h2>
+                        <div className='w-[50%] sm:w-full pr-4 sm:pr-0'>
+                            <h1 className='text-right sm:text-center  md:text-xl lg:text-2xl xl:text-4xl font-semibold text-[#005720]  mt-4 lg:mt-8 w-full lg:w-56'>John Adekunjo</h1>
+                            <h2 className='text-right sm:text-center text-[#35bc3d] font-light text-md lg:text-xl mt-2'>Head of Digital Communication<br></br>Hub For Digital Excellence</h2>
+                        </div>
+
                     </div>
                 </div>
             </div>
-            <div id='speakers' className='flex flex-col lg:flex-row-reverse mt-12 justify-center w-full p-8 items-center bg-[#005720] mb-0 sm:p-'>
-                <h1 className='text-4xl sm:texl-6xl xl:text-7xl speakers text-white font-bold w-full sm:text-center lg:w-[235px] xl:w-[400px] text-center lg:text-right my-4'>The Speakers</h1>
-                <div className='flex flex-col sm:flex-row'>
-                    <div className='flex flex-col items-center w-full xl:w-[300px] my-8'>
+            <div id='speakers' className='flex flex-col mt-12 justify-center w-full p-8 items-center bg-[#005720] mb-0 sm:p-'>
+                <h1 className='text-4xl sm:texl-6xl xl:text-7xl speakers text-white font-bold w-full sm:text-center text-center my-4'>The Speakers</h1>
+                <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3'>
+                    <div className='flex sm:flex-col items-center w-full xl:w-[300px] mt-8 sm:my-8'>
                         <div className='flex h-40 w-40 sm:h-40 sm:w-40 lg:h-60 lg:w-60 xl:h-60 xl:w-60 bg-black rounded-full relative'>
                             <a href='https://www.linkedin.com/in/drchrisbrooks?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' target='blank'>
                                 <div className='absolute lg:top-3 lg:right-3 xl:top-4 xl:right-4 bg-[#35bc3d] h-12 w-12 rounded-full hover:scale-110 duration-200 flex justify-center items-center'>
@@ -172,10 +184,13 @@ const About = () => {
                             </a>
                             <img className='h-full rounded-full' src={speaker3} alt="Speaker 2"></img>
                         </div>
-                        <h1 className='text-center text-xl lg:text-2xl xl:text-3xl font-semibold text-[#35bc3d] mt-8'>Dr. Christopher Brooks</h1>
-                        <h3 className='text-center text-base lg:text-lg font-light text-gray-300'>Managing Partner; Brown Venture Group</h3>
+                        <div className='h-full w-1/2 sm:w-full pl-4 sm:pl-0'>
+                            <h1 className='text-left sm:text-center text-lg sm:text-xl lg:text-2xl xl:text-3xl font-semibold text-[#35bc3d] mt-8'>Dr. Christopher Brooks</h1>
+                            <h3 className='text-left sm:text-center text-base text-md lg:text-lg font-light text-gray-300'>Managing Partner; Brown Venture Group</h3>
+                        </div>
+
                     </div>
-                    <div className='flex flex-col items-center w-full xl:w-[300px] mr-4 my-8'>
+                    <div className='flex flex-row-reverse sm:flex-col items-center w-full xl:w-[300px] mr-4 sm:my-8'>
                         <div className='flex h-40 w-40 sm:h-40 sm:w-40 lg:h-60 lg:w-60 xl:h-60 xl:w-60 bg-black rounded-full relative'>
                             <a href='https://www.linkedin.com/in/adetunji-anthony-adeleke-13567312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' target='blank'>
                                 <div className='absolute lg:top-3 lg:right-3 xl:top-4 xl:right-4 bg-[#35bc3d] h-12 w-12 rounded-full hover:scale-110 duration-200 flex justify-center items-center'>
@@ -186,10 +201,13 @@ const About = () => {
                             </a>
                             <img className='w-full rounded-full' src={speaker1} alt="Speaker 1"></img>
                         </div>
-                        <h1 className='text-center text-xl lg:text-2xl xl:text-3xl font-semibold text-[#35bc3d] mt-8'>Adetunji Anthony Adeleke</h1>
-                        <h3 className='text-center text-base md:text lg:text-lg font-light text-gray-300'>Co-Founder at CHIMENET, Indianapolis, Indiana, USA</h3>
+                        <div className='h-full w-1/2 sm:w-full pr-4 sm:pr-0'>
+                            <h1 className='text-right sm:text-center text-lg sm:text-xl lg:text-2xl xl:text-3xl font-semibold text-[#35bc3d] mt-8'>Adetunji Anthony Adeleke</h1>
+                            <h3 className='text-right sm:text-center text-base text-md lg:text-lg font-light text-gray-300'>Co-Founder at CHIMENET, Indianapolis, Indiana, USA</h3>
+                        </div>
+
                     </div>
-                    <div className='flex flex-col items-center w-full xl:w-[300px] my-8'>
+                    <div className='flex sm:flex-col items-center w-full xl:w-[300px] sm:my-8'>
                         <div className='flex h-40 w-40 sm:h-40 sm:w-40 lg:h-60 lg:w-60 xl:h-60 xl:w-60 bg-black rounded-full relative'>
                             <a href='https://www.linkedin.com/in/adetunji-anthony-adeleke-13567312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' target='blank'>
                                 <div className='absolute lg:top-3 lg:right-3 xl:top-4 xl:right-4 bg-[#35bc3d] h-12 w-12 rounded-full hover:scale-110 duration-200 flex justify-center items-center'>
@@ -200,8 +218,45 @@ const About = () => {
                             </a>
                             <img className='w-full rounded-full' src={speaker2} alt="Speaker 2"></img>
                         </div>
-                        <h1 className='text-center text-xl lg:text-2xl xl:text-3xl font-semibold text-[#35bc3d] mt-8 xl:w-full w-[80%]'>Prof. Kelly Kingsly Mua</h1>
-                        <h3 className='text-center text-base lg:text-lg font-light text-gray-300'>Finance Engineer | Board Director at ATIDI</h3>
+                        <div className='h-full w-1/2 sm:w-full pl-4 sm:pl-0'>
+                            <h1 className='text-left sm:text-center text-lg sm:text-xl lg:text-2xl xl:text-3xl font-semibold text-[#35bc3d] mt-8 xl:w-full w-[80%]'>Prof. Kelly Kingsly Mua</h1>
+                            <h3 className='text-left sm:text-center text-base text-md lg:text-lg font-light text-gray-300'>Finance Engineer | Board Director at ATIDI</h3>
+                        </div>
+
+                    </div>
+                    <div className='flex flex-row-reverse sm:flex-col items-center w-full xl:w-[300px] mr-4 sm:my-8'>
+                        <div className='flex h-40 w-40 sm:h-40 sm:w-40 lg:h-60 lg:w-60 xl:h-60 xl:w-60 bg-black rounded-full relative'>
+                            <a href='https://www.linkedin.com/in/armandngueti/' target='blank'>
+                                <div className='absolute lg:top-3 lg:right-3 xl:top-4 xl:right-4 bg-[#35bc3d] h-12 w-12 rounded-full hover:scale-110 duration-200 flex justify-center items-center'>
+
+                                    <img className='h-[50%]' src={linkedin}></img>
+
+                                </div>
+                            </a>
+                            <img className='w-full rounded-full' src={speaker4} alt="Speaker 1"></img>
+                        </div>
+                        <div className='h-full w-1/2 sm:w-full pr-4 sm:pr-0'>
+                            <h1 className='text-right sm:text-center text-lg sm:text-xl lg:text-2xl xl:text-3xl font-semibold text-[#35bc3d] mt-8'>Armand Gaetan Ngueti</h1>
+                            <h3 className='text-right sm:text-center text-base text-md md:text lg:text-lg font-light text-gray-300'>Co-Founder at CHIMENET, Indianapolis, Indiana, USA</h3>
+                        </div>
+
+                    </div>
+                    <div className='flex sm:flex-col items-center w-full xl:w-[300px] sm:my-8'>
+                        <div className='flex h-40 w-40 sm:h-40 sm:w-40 lg:h-60 lg:w-60 xl:h-60 xl:w-60 bg-black rounded-full relative'>
+                            <a href='https://www.linkedin.com/in/adetunji-anthony-adeleke-13567312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' target='blank'>
+                                <div className='absolute lg:top-3 lg:right-3 xl:top-4 xl:right-4 bg-[#35bc3d] h-12 w-12 rounded-full hover:scale-110 duration-200 flex justify-center items-center'>
+
+                                    <img className='h-[50%]' src={linkedin}></img>
+
+                                </div>
+                            </a>
+                            <img className='w-full rounded-full' src={speaker5} alt="Speaker 2"></img>
+                        </div>
+                        <div className='h-full w-1/2 sm:w-full pl-4 sm:pl-0'>
+                            <h1 className='text-left sm:text-center text-lg sm:text-xl lg:text-2xl xl:text-3xl font-semibold text-[#35bc3d] mt-8 xl:w-full w-[80%]'>Dr Salisu Uba</h1>
+                            <h3 className='text-left sm:text-center text-base text-md lg:text-lg font-light text-gray-300'>FCIPS - Founder and CEO NatQuest</h3>
+                        </div>
+
                     </div>
                 </div>
             </div>

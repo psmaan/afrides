@@ -19,15 +19,21 @@ const Navbar = () => {
                 <img className='h-[50%] mt-2s mr-2' src={t20} alt="Logo" />
                 <img className='h-[40%]' src={logo} alt="Logo" />
             </div>
-            <div className='hidden md:flex navbar-links items-end lg:space-x-6'>
+            <div className='hidden md:flex navbar-links items-end lg:space-x-4'>
                 <h1>Speakers</h1>
                 <h1><a href='/schedule.pdf' download>Schedule</a></h1>
-                <h1>Sponsors</h1>
+                <h1>
+                    <a href='/sponsor.pdf' download>
+                        <h1>Sponsors</h1>
+                    </a>
+                </h1>
                 <h1 className='text-nowrap'><a target='blank' href='https://haventravelandtour.com/g20-brazil-2024/'>Logistics</a></h1>
+                <h1 className='text-nowrap'><a target='blank' href='https://amazon.com/author/kellymuakingsly'>Buy Books</a></h1>
+                <h1 className='text-nowrap'><a target='blank'>Deal Room</a></h1>
             </div>
             <div className='hidden w-[300px] md:flex justify-end'>
                 <a href='/sponsor.pdf' download>
-                    <button className="text-[#35bc3d] border-2 border-[#35bc3d] p-2 px-4 rounded-lg font-semibold hover:scale-110 duration-150 ml-auto">Sponsor Us</button>
+                    <button className="text-[#35bc3d] border-2 border-[#35bc3d] p-1 px-3 rounded-lg font-light hover:scale-110 duration-150 ml-auto text-lg">Sponsor Us</button>
                 </a>
             </div>
             <div className='md:hidden' onClick={toggleMenu}>
@@ -37,9 +43,14 @@ const Navbar = () => {
                 <div className='md:hidden absolute top-20 left-0 w-full h-screen bg-[#95d5b2] flex flex-col items-center space-y-4 p-4 navmenu'>
                     <h1>Speakers</h1>
                     <h1><a href='/schedule.pdf' download>Schedule</a></h1>
-                    <h1>Sponsors</h1>
+                    <h1>
+                        <a href='/sponsor.pdf' download>
+                            <h1>Sponsors</h1>
+                        </a>
+                    </h1>
                     <h1><a target='blank' href='https://haventravelandtour.com/g20-brazil-2024/'>Logistics</a></h1>
                     <h1><a target='blank' href='https://amazon.com/author/kellymuakingsly'>Buy Books</a></h1>
+                    <h1><a target='blank'>Deal Room</a></h1>
                     <a href='/sponsor.pdf' download>
                         <button className="text-[#35bc3d] border-2 border-[#35bc3d] p-2 px-4 rounded-lg font-semibold hover:scale-110 duration-150 ml-auto">Sponsor Us</button>
                     </a>

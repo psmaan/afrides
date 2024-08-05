@@ -5,6 +5,7 @@ import Navbar from './components/Navbar.js'
 import Landing from './components/Landing.js'
 import Icons from './components/Icons.js'
 import About from './components/About.js'
+import Partners from './components/Partners.js'
 import Countdown from './components/Countdown.js'
 import Tickets from './components/Tickets.js'
 import FAQ from './components/FAQ.js'
@@ -23,6 +24,7 @@ function App() {
       <Navbar />
       <Landing scrollToTickets={scrollToTickets} />
       <About />
+      <Partners />
       <Countdown />
       <div ref={ticketsRef}>
         <Tickets />
