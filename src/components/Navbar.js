@@ -27,7 +27,7 @@ const Navbar = () => {
                         <h1>Sponsors</h1>
                     </a>
                 </h1>
-                <h1 className='text-nowrap'><a target='blank' href='https://haventravelandtour.com/g20-brazil-2024/'>Logistics</a></h1>
+                <h1 className='text-nowrap'><a target='blank' href='https://haventravelandtour.com/g20-brazil-2024/'>Travel Services</a></h1>
                 <h1 className='text-nowrap'><a target='blank' href='https://amazon.com/author/kellymuakingsly'>Buy Books</a></h1>
                 <h1 className='text-nowrap'><a target='blank'>Deal Room</a></h1>
             </div>
@@ -48,7 +48,7 @@ const Navbar = () => {
                             <h1>Sponsors</h1>
                         </a>
                     </h1>
-                    <h1><a target='blank' href='https://haventravelandtour.com/g20-brazil-2024/'>Logistics</a></h1>
+                    <h1><a target='blank' href='https://haventravelandtour.com/g20-brazil-2024/'>Travel Services</a></h1>
                     <h1><a target='blank' href='https://amazon.com/author/kellymuakingsly'>Buy Books</a></h1>
                     <h1><a target='blank'>Deal Room</a></h1>
                     <a href='/sponsor.pdf' download>
