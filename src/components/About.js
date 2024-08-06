@@ -114,7 +114,7 @@ const About = () => {
                             <img className='h-full rounded-full' src={host1} alt="Host 1"></img>
                         </div>
                         <div className='w-1/2 sm:w-full pl-4 sm:pl-0'>
-                            <h1 className='text-center md:text-xl lg:text-2xl xl:text-4xl font-semibold text-[#005720]  mt-4 lg:mt-8 w-[200px] lg:w-[250px] w-full'>Funmilayo Ogunsanmi</h1>
+                            <h1 className='text-center md:text-xl lg:text-2xl xl:text-4xl font-semibold text-[#005720]  mt-4 lg:mt-8 w-full'>Funmilayo Ogunsanmi</h1>
                             <h2 className='text-center text-[#35bc3d] font-light text-md lg:text-xl mt-2'>Co-Chair AfriDES/President Hub For Digital Excellence </h2>
                         </div>
                     </div>
@@ -130,7 +130,7 @@ const About = () => {
                             <img className='h-full rounded-full' src={host3} alt="Host 2"></img>
                         </div>
                         <div className='w-[60%] sm:w-full pr-4 sm:pr-0'>
-                            <h1 className='w-full text-center  md:text-xl lg:text-2xl xl:text-4xl font-semibold text-[#005720]  mt-4 lg:mt-8 w-40 lg:w-56'>Dr. Tammy Francis</h1>
+                            <h1 className='w-full text-center  md:text-xl lg:text-2xl xl:text-4xl font-semibold text-[#005720]  mt-4 lg:mt-8 '>Dr. Tammy Francis</h1>
                             <h2 className='text-center text-[#35bc3d] font-light text-md lg:text-xl mt-2'>Co-Chair AfriDES/Co-founder Hub For Digital Excellence</h2>
                         </div>
 
@@ -147,7 +147,7 @@ const About = () => {
                             <img className='h-full rounded-full' src={host2} alt="Host 2"></img>
                         </div>
                         <div className='w-[60%] sm:w-full pl-4 sm:pl-0'>
-                            <h1 className='text-center  md:text-xl lg:text-2xl xl:text-4xl font-semibold text-[#005720]  mt-4 lg:mt-8 w-full lg:w-56'>Kelvin Tersoo Jiraji</h1>
+                            <h1 className='text-center  md:text-xl lg:text-2xl xl:text-4xl font-semibold text-[#005720]  mt-4 lg:mt-8 w-full'>Kelvin Tersoo Jiraji</h1>
                             <h2 className='text-center text-[#35bc3d] font-light text-md lg:text-xl mt-2'>CEO Hub For Digital Excellence</h2>
                         </div>
                     </div>
@@ -163,7 +163,7 @@ const About = () => {
                             <img className='h-full rounded-full' src={host4} alt="Host 2"></img>
                         </div>
                         <div className='w-[50%] sm:w-full pr-4 sm:pr-0'>
-                            <h1 className='text-center  md:text-xl lg:text-2xl xl:text-4xl font-semibold text-[#005720]  mt-4 lg:mt-8 w-full lg:w-56'>John Adekunjo</h1>
+                            <h1 className='text-center  md:text-xl lg:text-2xl xl:text-4xl font-semibold text-[#005720]  mt-4 lg:mt-8 w-full'>John Adekunjo</h1>
                             <h2 className='text-center text-[#35bc3d] font-light text-md lg:text-xl mt-2'>Head of Digital Communication<br></br>Hub For Digital Excellence</h2>
                         </div>
 
@@ -259,6 +259,7 @@ const About = () => {
 
                     </div>
                 </div>
+                <button className='text-[#35bc3d] text-2xl font -light border-2 border-[#35bc3d] p-2 hover:bg-[#35bc3d] hover:text-[#005720] duration-200'>See More</button>
             </div>
         </div>
     );
