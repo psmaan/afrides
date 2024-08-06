@@ -237,7 +237,7 @@ const About = () => {
                         </div>
                         <div className='h-full w-1/2 sm:w-full pr-4 sm:pr-0'>
                             <h1 className='text-center text-lg sm:text-xl lg:text-2xl xl:text-3xl font-semibold text-[#35bc3d] mt-8'>Armand Gaetan Ngueti</h1>
-                            <h3 className='text-center text-base text-md md:text lg:text-lg font-light text-gray-300'>Co-Founder at CHIMENET, Indianapolis, Indiana, USA</h3>
+                            <h3 className='text-center text-base text-md md:text lg:text-lg font-light text-gray-300'>Founder & CEO at Universal Broadband & Technology Services - International Corp (UBTS)</h3>
                         </div>
 
                     </div>

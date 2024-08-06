@@ -28,6 +28,7 @@ const Tickets = () => {
             <h3 className='text-[#005720] font-semibold text-4xl'>
                 {`Early bird ends in ${daysLeft} ${daysLeft === 1 ? 'day' : 'days'}`}
             </h3>
+            <h1 className='text-2xl text-[#ffffff] font-light'>(until 30th September)</h1>
             <div className='flex flex-col lg:flex-row items-center mt-8'>
                 <div className='bg-black/10 h-[400px] lg:h-[630px] w-[360px] sm:w-[500px] lg:w-[300px] xl:w-[380px] backdrop-blur-3xl rounded-3xl flex flex-col items-center p-4 py-8 mx-2 lg:mx-4 border-2 border-white/20 hover:scale-105 duration-200 my-4'>
                     <h1 className='text-white font-bold text-4xl'>Basic</h1>
@@ -45,13 +46,14 @@ const Tickets = () => {
                         </div>
                     </div>
                 </div>
-                <div className='bg-black/10 h-[580px] lg:h-[680px] w-[360px] sm:w-[500px] lg:w-[300px] xl:w-[400px] backdrop-blur-3xl rounded-3xl flex flex-col items-center p-4 py-8 mx-2 lg:mx-4 border-2 border-white/20 hover:scale-105 duration-200 my-4'>
+                <div className='bg-black/10 h-[580px] lg:h-[680px] w-[360px] sm:w-[500px] lg:w-[300px] xl:w-[400px] backdrop-blur-3xl rounded-3xl flex flex-col items-center p-4 py-8 mx-2 lg:mx-4 border-2 border-white/20 hover:scale-105 duration-200 my-4 relative'>
                     <h1 className='text-white font-bold text-4xl'>Standard</h1>
                     <img className='w-[90px] my-2' src={ticket} alt='ticket'></img>
                     <div className='flex'>
-                        <h1 className='text-4xl text-[#6a9a7b] font-bold line-through'>$1000</h1>
-                        <h1 className='text-4xl text-[#005720] font-bold ml-2'>$750</h1>
+                        <h1 className='text-4xl text-[#6a9a7b] font-bold line-through'>$750</h1>
+                        <h1 className='text-4xl text-[#005720] font-bold ml-2'>$562</h1>
                     </div>
+                    <h1 className='text-2xl text-[#ffffff] font-light'>(25% off)</h1>
                     <button className='m-4 font-semibold rounded-lg p-2 px-4 bg-[#35bc3d] text-white hover:scale-110 duration-150 mb-8'>Buy Now</button>
                     <div className='flex flex-col items-start w-[95%]'>
                         <div className='flex items-center border-b-[1px] pb-1 w-full my-1'>
@@ -96,9 +98,10 @@ const Tickets = () => {
                     <h1 className='text-white font-bold text-4xl'>Premium</h1>
                     <img className='w-[90px] my-2' src={ticket} alt='ticket'></img>
                     <div className='flex'>
-                        <h1 className='text-4xl text-[#6a9a7b] font-bold line-through'>$1500</h1>
-                        <h1 className='text-4xl text-[#005720] font-bold ml-2'>$1000</h1>
+                        <h1 className='text-4xl text-[#6a9a7b] font-bold line-through'>$1000</h1>
+                        <h1 className='text-4xl text-[#005720] font-bold ml-2'>$750</h1>
                     </div>
+                    <h1 className='text-2xl text-[#ffffff] font-light'>(25% off)</h1>
                     <button className='m-4 font-semibold rounded-lg p-2 px-4 bg-[#35bc3d] text-white hover:scale-110 duration-150 mb-8'>Buy Now</button>
                     <div className='flex flex-col items-start w-[95%]'>
                         <div className='flex items-center border-b-[1px] pb-1 w-full my-1'>
