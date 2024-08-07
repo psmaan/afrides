@@ -6,6 +6,7 @@ import Landing from './components/Landing.js'
 import Icons from './components/Icons.js'
 import About from './components/About.js'
 import Partners from './components/Partners.js'
+import Dealroom from './components/DealRoom.js'
 import Countdown from './components/Countdown.js'
 import Tickets from './components/Tickets.js'
 import FAQ from './components/FAQ.js'
@@ -25,6 +26,7 @@ function App() {
       <Landing scrollToTickets={scrollToTickets} />
       <About />
       <Partners />
+      <Dealroom />
       <Countdown />
       <div ref={ticketsRef}>
         <Tickets />

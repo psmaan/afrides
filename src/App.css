@@ -253,6 +253,9 @@ html {
   }
 }
 
-.outliner {
-
+.dealroom {
+  background: url('./components/media/dealroom.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
