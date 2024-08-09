@@ -1,38 +1,28 @@
 import React, { useRef } from 'react';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 
-import Navbar from './components/Navbar.js'
-import Landing from './components/Landing.js'
-import Icons from './components/Icons.js'
-import About from './components/About.js'
-import Partners from './components/Partners.js'
-import Dealroom from './components/DealRoom.js'
-import Countdown from './components/Countdown.js'
-import Tickets from './components/Tickets.js'
-import FAQ from './components/FAQ.js'
-import Venue from './components/Venue.js';
+import Homepage from './Homepage.js'
+import Schedule from './components/Schedule.js'
+
 
 function App() {
-  const ticketsRef = useRef(null);
 
-  const scrollToTickets = () => {
-    ticketsRef.current.scrollIntoView({ behavior: 'smooth' });
-  };
+
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Homepage />,
+    },
+    {
+      path: "/schedule",
+      element: <Schedule />,
+    },
+  ]);
 
   return (
     <>
-      <Icons />
-      <Navbar />
-      <Landing scrollToTickets={scrollToTickets} />
-      <About />
-      <Partners />
-      <Dealroom />
-      <Countdown />
-      <div ref={ticketsRef}>
-        <Tickets />
-      </div>
-      <FAQ />
-      <Venue />
+      <RouterProvider router={router} />
     </>
   );
 }

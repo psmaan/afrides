@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import logo from './media/logo.png';
 import g20 from './media/g20.png';
 import t20 from './media/t20.png';
-import menuIcon from './media/menu.png'; // Placeholder for menu icon
-import closeIcon from './media/close.png'; // Placeholder for close icon
+import menuIcon from './media/menu.png';
+import closeIcon from './media/close.png';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -21,7 +22,11 @@ const Navbar = () => {
             </div>
             <div className='hidden md:flex navbar-links items-end lg:space-x-4'>
                 <h1>Speakers</h1>
-                <h1><a href='/schedule.pdf' download>Schedule</a></h1>
+                <h1>
+                    <Link to='/schedule'>
+                        Schedule
+                    </Link>
+                </h1>
                 <h1>
                     <a href='/sponsor.pdf' download>
                         <h1>Sponsors</h1>
@@ -42,7 +47,12 @@ const Navbar = () => {
             {menuOpen && (
                 <div className='md:hidden absolute top-20 left-0 w-full h-screen bg-[#95d5b2] flex flex-col items-center space-y-4 p-4 navmenu'>
                     <h1>Speakers</h1>
-                    <h1><a href='/schedule.pdf' download>Schedule</a></h1>
+                    <h1>
+                        <Link to='/schedule'>
+                            Schedule
+                        </Link>
+                    </h1>
+
                     <h1>
                         <a href='/sponsor.pdf' download>
                             <h1>Sponsors</h1>
