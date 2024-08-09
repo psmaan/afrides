@@ -144,6 +144,10 @@ const Schedule = () => {
             <h1 className='mt-4'>Africa Digital Economy Summit - G20 Edition</h1>
             <h2 className='mt-2'>22-25th October 2024</h2>
 
+            <a href='/schedule.pdf' download>
+                <button className="bg-[#35bc3d] text-white border-2 border-[#35bc3d] p-2 px-4 rounded-lg font-semibold hover:scale-110 duration-150 ml-auto">Download Schedule</button>
+            </a>
+
             <div className="w-[95%] mx-auto mt-10">
                 {/* Accordion Item 1 */}
                 <div className="mb-2 border border-gray-300 rounded-md">
