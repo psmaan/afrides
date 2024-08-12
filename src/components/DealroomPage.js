@@ -23,13 +23,13 @@ const DealroomPage = () => {
             </div>
             <div className='flex w-full justify-center my-8'>
                 <h1
-                    className={`mx-4 text-4xl font-semibold ${activeTab === 'Investor' ? 'text-[#1a1a1a] pb-3 border-b-2 border-b-[#1a1a1a]' : 'text-[#494949] pb-3 border-b-2 hover:border-b-[#1a1a1a]'} duration-200 cursor-pointer`}
+                    className={`mx-4 text-xl sm:text-2xl md:text-4xl font-semibold ${activeTab === 'Investor' ? 'text-[#1a1a1a] pb-3 border-b-2 border-b-[#1a1a1a]' : 'text-[#494949] pb-1 md:pb-3 border-b-2 hover:border-b-[#1a1a1a]'} duration-200 cursor-pointer`}
                     onClick={() => setActiveTab('Investor')}
                 >
                     Investor
                 </h1>
                 <h1
-                    className={`mx-4 text-4xl font-semibold ${activeTab === 'Entrepreneur' ? 'text-[#1a1a1a] pb-3 border-b-2 border-b-[#1a1a1a]' : 'text-[#494949] pb-3 border-b-2 hover:border-b-[#1a1a1a]'} duration-200 cursor-pointer`}
+                    className={`mx-4 text-xl sm:text-2xl md:text-4xl font-semibold ${activeTab === 'Entrepreneur' ? 'text-[#1a1a1a] pb-1 md:pb-3 border-b-2 border-b-[#1a1a1a]' : 'text-[#494949] pb-3 border-b-2 hover:border-b-[#1a1a1a]'} duration-200 cursor-pointer`}
                     onClick={() => setActiveTab('Entrepreneur')}
                 >
                     Entrepreneur
@@ -38,8 +38,8 @@ const DealroomPage = () => {
 
             {/* Conditionally Render Content */}
             {activeTab === 'Investor' ? (
-                <div className='w-[80%] mx-auto bg-[#0572BB] flex'>
-                    <div className='w-1/2 flex flex-col justify-center items-start p-6'>
+                <div className='w-[95%] sm:w-[80%] mx-auto bg-[#0572BB] flex flex-col lg:flex-row h-'>
+                    <div className='w-full lg:w-1/2 flex flex-col justify-center items-start p-6'>
                         <img className='w-12 mt-8' src={investor} />
                         <h1 className='my-4 text-4xl text-white font-semibold'>As an Investor</h1>
                         <p className='text-white'>
@@ -47,13 +47,12 @@ const DealroomPage = () => {
                         </p>
                         <button className='text-white border-white border-2 p-2 px-4 text-xl hover:bg-white hover:text-[#0572BB] duration-200 mt-8'>Shortlist as an Investor</button>
                     </div>
-                    <div className='w-1/2 h-full'>
-                        <img className='w-full h-full' src={investorimg} />
+                    <div className='w-full lg:w-1/2 investor h-[400px]'>
                     </div>
                 </div>
             ) : (
-                <div className='w-[80%] mx-auto bg-[#95d5b2] flex'>
-                    <div className='w-1/2 flex flex-col justify-center items-start p-6'>
+                <div className='w-[95%] sm:w-[80%] mx-auto bg-[#95d5b2] flex flex-col lg:flex-row'>
+                    <div className='w-full lg:w-1/2 flex flex-col justify-center items-start p-6'>
                         <img className='w-12 mt-8' src={entrepreneurImage} />
                         <h1 className='my-4 text-4xl text-white font-semibold'>As an Entrepreneur</h1>
                         <p className='text-white'>
@@ -61,21 +60,20 @@ const DealroomPage = () => {
                         </p>
                         <button className='text-white border-white border-2 p-2 px-4 text-xl hover:bg-white hover:text-[#95d5b2] duration-200 mt-8'>Shortlist as an Entrepreneur</button>
                     </div>
-                    <div className='w-1/2 h-full overflow-hidden'>
-                        <img className='h-full' src={entrepreneurImg} />
+                    <div className='w-full lg:w-1/2 entrepreneur h-[400px]'>
                     </div>
                 </div>
             )}
 
-            <div className='mt-20 flex justify-center w-full'>
-                <div className='w-[40%] flex flex-col items-center p-8'>
+            <div className='mt-20 flex flex-col md:flex-row justify-center w-full'>
+                <div className='w-full md:w-[50%] flex flex-col items-center p-8'>
                     <h1 className='text-4xl font-semibold'>
                         Why shortlist as {activeTab === 'Investor' ? 'an Investor' : 'an Entrepreneur'}
                     </h1>
                     <div className='mt-8'>
                         {activeTab === 'Investor' ? (
                             <>
-                                <div className='flex h-[150px]'>
+                                <div className='flex h-[220px]'>
                                     <div className='h-full flex flex-col items-center relative'>
                                         <div className='absolute h-full w-[2px] bg-[#0572BB] z-10'></div>
                                         <div className='w-8 h-8 bg-[#0572BB] flex justify-center items-center z-20 rounded-full'>
@@ -84,7 +82,7 @@ const DealroomPage = () => {
                                     </div>
                                     <h1 className='ml-4 text-xl'>Discover Exceptional: Explore a carefully curated selection of businesses and startups with strong growth potential, meticulously vetted to meet your investment standards.</h1>
                                 </div>
-                                <div className='flex h-[150px]'>
+                                <div className='flex h-[180px]'>
                                     <div className='h-full flex flex-col items-center relative'>
                                         <div className='absolute h-full w-[2px] bg-[#0572BB] z-10'></div>
                                         <div className='w-8 h-8 bg-[#0572BB] flex justify-center items-center z-20 rounded-full'>
@@ -104,7 +102,7 @@ const DealroomPage = () => {
                             </>
                         ) : (
                             <>
-                                <div className='flex h-[150px]'>
+                                <div className='flex h-[180px]'>
                                     <div className='h-full flex flex-col items-center relative'>
                                         <div className='absolute h-full w-[2px] bg-[#95d5b2] z-10'></div>
                                         <div className='w-8 h-8 bg-[#95d5b2] flex justify-center items-center z-20 rounded-full'>
@@ -134,7 +132,7 @@ const DealroomPage = () => {
                         )}
                     </div>
                 </div>
-                <div className='w-[40%] flex flex-col items-center p-8'>
+                <div className='w-full md:w-1/2 flex flex-col items-center p-8'>
                     <h1 className='text-4xl font-semibold mr-auto'>How it Works</h1>
                     <div className='mt-8'>
                         {activeTab === 'Investor' ? (
