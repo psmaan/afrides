@@ -34,7 +34,11 @@ const Navbar = () => {
                 </h1>
                 <h1 className='text-nowrap'><a target='blank' href='https://haventravelandtour.com/g20-brazil-2024/'>Travel Services</a></h1>
                 <h1 className='text-nowrap'><a target='blank' href='https://amazon.com/author/kellymuakingsly'>Buy Books</a></h1>
-                <h1 className='text-nowrap'><a target='blank'>Deal Room</a></h1>
+                <h1 className='text-nowrap'>
+                    <Link to='/dealroom'>
+                        Deal Room
+                    </Link>
+                </h1>
             </div>
             <div className='hidden w-[300px] md:flex justify-end'>
                 <a href='/sponsor.pdf' download>

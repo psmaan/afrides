@@ -4,6 +4,7 @@ import './App.css';
 
 import Homepage from './Homepage.js'
 import Schedule from './components/Schedule.js'
+import Dealroom from './components/DealroomPage.js'
 
 
 function App() {
@@ -17,6 +18,10 @@ function App() {
     {
       path: "/schedule",
       element: <Schedule />,
+    },
+    {
+      path: "/dealroom",
+      element: <Dealroom />,
     },
   ]);
 
