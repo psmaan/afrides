@@ -80,7 +80,7 @@ const DealroomPage = () => {
                                             <img className='w-[60%]' src={tick} />
                                         </div>
                                     </div>
-                                    <h1 className='ml-4 text-xl'>Discover Exceptional: Explore a carefully curated selection of businesses and startups with strong growth potential, meticulously vetted to meet your investment standards.</h1>
+                                    <h1 className='ml-4 text-xl'>⁠Access to High-Growth Startups: Discover a curated selection of Africa’s most promising digital startups, ready to scale and innovate in the global market.</h1>
                                 </div>
                                 <div className='flex h-[180px]'>
                                     <div className='h-full flex flex-col items-center relative'>
@@ -89,7 +89,28 @@ const DealroomPage = () => {
                                             <img className='w-[60%]' src={tick} />
                                         </div>
                                     </div>
-                                    <h1 className='ml-4 text-xl'>Maximize Your Returns: Access high-yield investment opportunities that offer the potential for lucrative returns and long-term growth.</h1>
+                                    <h1 className='ml-4 text-xl'>⁠Exclusive Networking: Engage directly with visionary entrepreneurs, industry experts, and other investors in a setting designed for meaningful connections and strategic partnerships.
+                                    </h1>
+                                </div>
+                                <div className='flex h-[180px]'>
+                                    <div className='h-full flex flex-col items-center relative'>
+                                        <div className='absolute h-full w-[2px] bg-[#0572BB] z-10'></div>
+                                        <div className='w-8 h-8 bg-[#0572BB] flex justify-center items-center z-20 rounded-full'>
+                                            <img className='w-[60%]' src={tick} />
+                                        </div>
+                                    </div>
+                                    <h1 className='ml-4 text-xl'>Tailored Investment Opportunities: Find investment opportunities that align with your interests and portfolio goals, from early-stage ventures to rapidly growing companies.
+                                    </h1>
+                                </div>
+                                <div className='flex h-[180px]'>
+                                    <div className='h-full flex flex-col items-center relative'>
+                                        <div className='absolute h-full w-[2px] bg-[#0572BB] z-10'></div>
+                                        <div className='w-8 h-8 bg-[#0572BB] flex justify-center items-center z-20 rounded-full'>
+                                            <img className='w-[60%]' src={tick} />
+                                        </div>
+                                    </div>
+                                    <h1 className='ml-4 text-xl'>⁠Insights into Emerging Markets: Gain first-hand insights into Africa’s rapidly evolving digital economy, with opportunities to invest in sectors poised for explosive growth.
+                                    </h1>
                                 </div>
                                 <div className='flex h-[150px]'>
                                     <div className='h-full flex flex-col items-center relative'>
@@ -97,7 +118,9 @@ const DealroomPage = () => {
                                             <img className='w-[60%]' src={tick} />
                                         </div>
                                     </div>
-                                    <h1 className='ml-4 text-xl'>Connect with Outliers: Engage directly with ambitious entrepreneurs who are revolutionizing industries and shaping the future of business.</h1>
+                                    <h1 className='ml-4 text-xl'>⁠Secure and Efficient Deal-Making: Benefit from a secure and confidential environment for discussing terms, negotiating deals, and finalizing investments efficiently.
+
+                                    </h1>
                                 </div>
                             </>
                         ) : (
@@ -109,7 +132,8 @@ const DealroomPage = () => {
                                             <img className='w-[60%]' src={tick} />
                                         </div>
                                     </div>
-                                    <h1 className='ml-4 text-xl'>Gain Access to Capital: Pitch your venture to a network of investors eager to support innovative ideas.</h1>
+                                    <h1 className='ml-4 text-xl'>Direct Access to Investors: Pitch your innovative ideas directly to a room full of investors actively seeking opportunities in the digital space.
+                                    </h1>
                                 </div>
                                 <div className='flex h-[150px]'>
                                     <div className='h-full flex flex-col items-center relative'>
@@ -118,7 +142,27 @@ const DealroomPage = () => {
                                             <img className='w-[60%]' src={tick} />
                                         </div>
                                     </div>
-                                    <h1 className='ml-4 text-xl'>Build Strategic Partnerships: Establish connections that can provide more than just financial support.</h1>
+                                    <h1 className='ml-4 text-xl'>Market Validation and Feedback: Gain valuable feedback from industry experts and investors, helping to refine your business model and accelerate growth.</h1>
+                                </div>
+                                <div className='flex h-[150px]'>
+                                    <div className='h-full flex flex-col items-center relative'>
+                                        <div className='absolute h-full w-[2px] bg-[#95d5b2] z-10'></div>
+                                        <div className='w-8 h-8 bg-[#95d5b2] flex justify-center items-center z-20 rounded-full'>
+                                            <img className='w-[60%]' src={tick} />
+                                        </div>
+                                    </div>
+                                    <h1 className='ml-4 text-xl'>Strategic Partnerships: Explore opportunities for strategic collaborations that can propel your startup to new heights through investor networks and resources.
+                                    </h1>
+                                </div>
+                                <div className='flex h-[150px]'>
+                                    <div className='h-full flex flex-col items-center relative'>
+                                        <div className='absolute h-full w-[2px] bg-[#95d5b2] z-10'></div>
+                                        <div className='w-8 h-8 bg-[#95d5b2] flex justify-center items-center z-20 rounded-full'>
+                                            <img className='w-[60%]' src={tick} />
+                                        </div>
+                                    </div>
+                                    <h1 className='ml-4 text-xl'>Visibility and Exposure: Increase your visibility within the industry by showcasing your startup at a premier event focused on Africa’s digital economy.
+                                        d investors, helping to refine your business model and accelerate growth.</h1>
                                 </div>
                                 <div className='flex h-[150px]'>
                                     <div className='h-full flex flex-col items-center relative'>
@@ -126,7 +170,8 @@ const DealroomPage = () => {
                                             <img className='w-[60%]' src={tick} />
                                         </div>
                                     </div>
-                                    <h1 className='ml-4 text-xl'>Accelerate Growth: Get the resources and expertise you need to scale your business quickly.</h1>
+                                    <h1 className='ml-4 text-xl'>⁠Potential for Funding: Secure the funding needed to take your startup to the next level, with investors who are ready to support high-impact ventures.
+                                    </h1>
                                 </div>
                             </>
                         )}

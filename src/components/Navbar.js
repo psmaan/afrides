@@ -64,7 +64,9 @@ const Navbar = () => {
                     </h1>
                     <h1><a target='blank' href='https://haventravelandtour.com/g20-brazil-2024/'>Travel Services</a></h1>
                     <h1><a target='blank' href='https://amazon.com/author/kellymuakingsly'>Buy Books</a></h1>
-                    <h1><a target='blank'>Deal Room</a></h1>
+                    <h1>                    <Link to='/dealroom'>
+                        Deal Room
+                    </Link></h1>
                     <a href='/sponsor.pdf' download>
                         <button className="text-[#35bc3d] border-2 border-[#35bc3d] p-2 px-4 rounded-lg font-semibold hover:scale-110 duration-150 ml-auto">Sponsor Us</button>
                     </a>
